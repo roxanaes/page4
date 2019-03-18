@@ -133,4 +133,7 @@ header{
 }
 .new-principal-one .listpos{
   position: absolute;
+  bottom: 0px;
+  left: 0;
+  padding: 0 20px 38px;
 }
