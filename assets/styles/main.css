@@ -5,11 +5,13 @@ body{
   font-size: 13px;
 }
 h1,
-h2,
-h3,
-h4{
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+h2{
+  font-family: 'Lato', sans-serif; 
   color: black;
+}
+h3{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 11px;
 }
 
 h1{
@@ -26,6 +28,25 @@ h2{
 }
 *{
   box-sizing: border-box;
+}
+
+/*
+tag
+*/
+.tag{
+  position: absolute;
+  top: 10px;
+  right: 0;
+  margin-right: 10px;
+  width: 54px;
+  height: 20px;
+  border-radius: 8px;
+  border: 1px solid white;
+  text-align: center;
+  line-height: 20px;
+  font-size: 13px;
+  background: white;
+
 }
 
 /* Header*/
@@ -111,8 +132,25 @@ header{
 .new-principal-one .list{
    display: flex;
   justify-content: space-between;
-  margin-right: 20px;
+  /* margin-right: 20px; */
+   margin-top: 25px;
+  margin-bottom: 30px;
 }
+.new-principal-one .list a{
+  display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    border: 1px solid white;
+    text-align: center;
+    line-height: 20px;
+    font-size: 11px;
+}
+.new-principal-one .list-social-tw{
+  margin-left: 10px;
+}
+
+
 .new-principal-three article{
   margin-bottom: 20px;
 } 
@@ -121,6 +159,12 @@ header{
 }
 .news .text h1,
 .news .text h2{
+  color: white;
+  padding-right: 32px;
+}
+
+.new-secondary .text h1,
+.new-secondary .text h2{
   color: white;
   padding-right: 32px;
 }
@@ -136,4 +180,174 @@ header{
   bottom: 0px;
   left: 0;
   padding: 0 20px 38px;
+  
 }
+.new-principal-one .listpos h2{
+  font-size: 26px;
+    padding-right: 75px;
+    line-height: 30px
+}
+
+.new-principal-two .list-principal-two{
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  padding: 0 8px 38px 8px;
+} 
+.new-principal-two .tag {
+  font-weight: bold;
+  color: black;
+}
+
+.new-principal-two .list-principal-two h2{
+  font-size: 20px;
+  line-height: 25px;
+  }
+.new-principal-two .list-principal-two h3{
+  margin: 40px 0px;
+} 
+.new-principal-two .list-social{
+  position: absolute;
+  bottom: 10px;
+  right: 20px;
+} 
+.new-principal-two .list-principal-two a{
+ display: inline-block;
+   width: 20px;
+   height: 20px;
+   border-radius: 100%;
+   border: 1px solid white;
+   text-align: center;
+   line-height: 20px;
+   font-size: 11px;
+}
+.new-principal-two .list-social-tw{
+ margin-left: 10px;
+}
+.new-principal-three .tag{
+  width: 60px;
+  height: 20px;
+  font-weight: bold;
+  color: black;
+}
+.new-principal-three h2{
+  font-size: 16px;
+  line-height: 18px;
+}
+.new-principal-three  .tag-esp{
+  width: 100px;
+}
+.new-principal-three  .tag-tec{
+  width: 75px;
+}
+.new-principal-three .list-principal-three{
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  padding-left: 8px;
+  width: 100%;
+  padding-right: 12px;
+}
+.list-principal-three .list-three{
+  display: flex;
+  justify-content: space-between;
+}
+
+.new-principal-three .list-principal-three h2{
+  width: 200px;
+  height: 30px;
+  margin-bottom: 20px;
+}
+.new-principal-three .list-principal-three h3{
+  margin-bottom: 8px;
+}
+.list-principal-three .list-three h3{
+  bottom: 0px;
+  margin-top: 10px;
+}
+
+.new-principal-three .list-principal-three a{
+  display: inline-block;
+  width: 26px;
+  height: 26px;
+  border-radius: 100%;
+  border: 1px solid white;
+  text-align: center;
+  line-height: 20px;
+  font-size: 11px; 
+  margin-bottom: 10px;
+}
+.new-principal-three .list-principal-three i{
+  width: 10px;
+  height: 13px;
+  text-align: center;
+}
+.new-principal-three .list-social-tw{
+  margin-left: 10px;
+ }
+
+
+ /*new-secondary*/
+ .new-secondary{
+  display: flex;
+  color: white;
+  justify-content:space-between;
+
+
+}
+.new-secondary a{
+  color: white;
+}
+
+.new-secondary article{
+  position: relative;
+}
+
+.new-secondary article .text{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+ .new-secondary-one h1{
+    font-size: 28px;
+   color: #7b3fb6;
+   margin-top: 24px;
+   margin-bottom: 16px;
+ }
+ .new-secondary-three h1{
+  margin-top: 24px;
+  margin-bottom: 16px;
+   font-size: 28px;
+   color: #009d78;
+ }
+ .new-secondary-one article{
+  margin-bottom: 20px;
+}
+.new-secondary-one .tag{
+  width: 60px;
+  height: 20px;
+  font-weight: bold;
+  color: black;
+}
+.new-secondary-one h2{
+  font-size: 16px;
+  line-height: 18px;
+}
+.new-secondary-one  .tag-esp{
+  width: 100px;
+}
+.new-secondary-one  .tag-tec{
+  width: 75px;
+}
+.new-secondary-one .list-principal-three{
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  padding-left: 8px;
+  width: 100%;
+  padding-right: 12px;
+}
+
